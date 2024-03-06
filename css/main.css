@@ -1,0 +1,215 @@
+body {  /* tag body ira conter 100% de todo o site */
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.home {     /*cabeçalho do site*/
+    background-color: rgba(75, 0, 150, 1);
+    height: 80px;
+    width: 100%;
+}
+
+main {  /*onde ira deixar tudo centralizado*/
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    background-color: white;
+}
+
+.botaohome {
+    padding: 15px;
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+}
+
+.redes-sociais ul li {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
+.redes-sociais {
+    width: 50%;
+    float: right;
+    padding: 10px;
+}
+
+.header-2 {
+    background-color: rgb(0, 0, 0, 0.1);
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    padding: 7px;
+}
+
+.menu-links {
+    border-bottom: solid 2px black;
+    height: 60px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 10%;
+}
+
+.menu ul li a:hover {
+    color: blueviolet;
+}
+
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.menu {
+    margin-top: 6px;
+    width: 70%;
+    float: left;
+    margin-left: 10%;
+}
+
+.buscar {
+    width: 20%;
+    float: left;
+    text-align: left;
+}
+
+.buscar input {     /*formatando o campo de buscar, inserindo imagem de lupa*/
+    margin-top: 7px;
+    width: 200px;
+    background-image: url('../img/lupa.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    -webkit-text-stroke: thin;
+    border: 2px solid black;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.slide {
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.apresentar {
+    width: 65%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+.sobre {
+    width: 60%;
+    text-align: justify;
+    margin-top: 10%;
+    font-family: monospace;
+    float: left;
+    font-size: larger;
+}
+
+.sobre h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+.sobre a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.pc {
+    width: 30%;
+    float: right;
+    padding: auto;
+    margin-top: 15%;
+}
+
+.cursos {
+    width: 100%;
+    text-align: left;
+    margin-top: 10%;
+    float: left;
+    font-family: monospace;
+}
+
+.cursos h2 {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.cursos h3 {
+    font-weight: bold;
+    text-align: left;
+    margin-top: 3%;
+}
+
+.cursos a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.contato-1 {
+    width: 50%;
+    text-align: left;
+    float: left;
+    margin-top: 10%;
+    font-family: monospace;
+
+}
+
+.contato-2 {
+    width: 50%;
+    text-align: left;
+    float: right;
+    margin-top: 5%;
+    font-family: monospace;
+}
+
+.titulo-cont {
+    text-align: center;
+    width: 100%;
+    float: left;
+    font-family: monospace;
+    margin-top: 10%;
+}
+
+.redes ul li {
+    display: inline;
+    margin-left: 5%;
+}
+
+footer {    /*rodapé*/
+    width: 100%;
+    background: rgba(75, 0, 150, 1);
+    color: white;
+    text-align: center;
+    float: left;
+    padding: 20px 23px;
+}
+
+footer a {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: blueviolet;
+}
